@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+}
+
+h1{
+    color: red;
+    font-size: 55px;
+    text-align: center;
+}
+
+a{
+    font-size: 25px;
+    color: red;
+    text-decoration: none;
+    padding: 5px;
+    border: 10px;
+    margin: 55px;
+    transition: ease .5s;
+}
+
+a:hover{
+    color: white;
+    opacity: 1;
+    scale: 1.1;
+    transform: scale(.6);
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-1 img{
+    max-width: 250px;
+    min-width:250px;
+    min-height: 200px;
+    max-height: 200px;
+    opacity: .7;
+    transition: ease .7s;
+}
+
+.grid-1 img:hover{
+    opacity: 1;
+}
